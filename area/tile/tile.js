@@ -7,7 +7,7 @@ class Tile {
 
     render() {
         stroke(255);
-        fill(255, 0, 0);
+        fill((this.x + this.y) * 10 % 255, 0, 0);
         strokeWeight(1 / 16);
         rect(0, 0, 1, 1);
     }

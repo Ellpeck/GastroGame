@@ -1,7 +1,7 @@
 let currentArea;
 
 function initGame() {
-    currentArea = new Area(15, 10);
+    currentArea = new Area(40, 60);
 }
 
 function updateGame() {

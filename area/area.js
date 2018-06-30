@@ -15,6 +15,7 @@ class Area {
 
     render() {
         push();
+        translate(-cameraX, -cameraY);
         scale(tileScale, tileScale);
 
         for (let x = 0; x < this.width; x++) {

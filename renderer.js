@@ -1,6 +1,9 @@
 let displayRatio;
 let tileScale;
 
+let cameraX = 0;
+let cameraY = 0;
+
 function initRenderer() {
     createCanvas(windowWidth, windowHeight);
     calcRatios();
