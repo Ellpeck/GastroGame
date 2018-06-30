@@ -1,7 +1,17 @@
 function setup() {
-    createCanvas(640, 480);
+    initGame();
+    initRenderer();
 }
 
 function draw() {
-    background(0);
+    updateGame();
+    render();
+}
+
+function initGame() {
+
+}
+
+function updateGame() {
+
 }
